@@ -30,19 +30,25 @@ int main() {
 
     bool choice = true;
     while (choice) {
-        cout << "Masin haqqinda melumat ucun 1 e basin" << endl;
-        cout << "Masin secmek ucun 2 ye basin" << endl;
-        cout << "Masin almaq ucun 3 e basin" << endl;
-        cout << "Cixis ucun 4 e basin" << endl;
+        cout<<"Masin yaratmaq ve ya programa masin daxil etmek ucun 1 e basin"<<endl;
+        cout << "Masin haqqinda melumat ucun 2 e basin" << endl;
+        cout << "Masin secmek ucun 3 ye basin" << endl;
+        cout << "Masin almaq ucun 4 e basin" << endl;
+        cout << "Cixis ucun 5 e basin" << endl;
         cout << endl;
 
         int a;
         cin >> a;
 
-        if (a == 1) {
+        if(a==1)
+        {
+         Funksiya::CreateCar(v);
+         cout<<endl;
+        }
+        else if (a == 2) {
             car.InfoCar();
             cout << endl;
-        } else if (a == 2) {
+        } else if (a == 3) {
             cout << "Masin markasi daxil edin: ";
             string marka;
             cin >> marka;
@@ -51,13 +57,13 @@ int main() {
             if (!car.marka.empty()) {
                 cout<<"Secile masin:"<<car.marka<<endl<<endl;
             }
-        } else if (a == 3) {
+        } else if (a == 4) {
             cout << "Nece Masin Alcaqsiniz: ";
             long long numofsell;
             cin >> numofsell;
             car.SellCar(car.price, numofsell);
             cout << endl;
-        } else if (a == 4) {
+        } else if (a == 5) {
             cout << "Cixis edildi" << endl;
             return 0;
         } else {

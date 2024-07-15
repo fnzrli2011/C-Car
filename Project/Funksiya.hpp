@@ -9,6 +9,7 @@ using namespace std;
 class Funksiya {
 public:
     static void SelectCar(const string &name, Car &car, const vector<Car> &v);
+    static void CreateCar(vector<Car> &v);
 };
 
 #endif

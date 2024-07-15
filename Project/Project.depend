@@ -6,12 +6,12 @@
 1721063986 /home/mrcat2/Programming/C++/Project/Project/Car.hpp
 	<bits/stdc++.h>
 
-1721064588 source:/home/mrcat2/Programming/C++/Project/Project/main.cpp
+1721071209 source:/home/mrcat2/Programming/C++/Project/Project/main.cpp
 	<bits/stdc++.h>
 	"Car.hpp"
 	"Funksiya.hpp"
 
-1721064023 /home/mrcat2/Programming/C++/Project/Project/Funksiya.hpp
+1721071517 /home/mrcat2/Programming/C++/Project/Project/Funksiya.hpp
 	<vector>
 	"Car.hpp"
 
