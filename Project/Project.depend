@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1721064122 source:/home/mrcat2/Programming/C++/Project/Project/Car.cpp
+	"Car.hpp"
+	<iostream>
+
+1721063986 /home/mrcat2/Programming/C++/Project/Project/Car.hpp
+	<bits/stdc++.h>
+
+1721064588 source:/home/mrcat2/Programming/C++/Project/Project/main.cpp
+	<bits/stdc++.h>
+	"Car.hpp"
+	"Funksiya.hpp"
+
+1721064023 /home/mrcat2/Programming/C++/Project/Project/Funksiya.hpp
+	<vector>
+	"Car.hpp"
+
+1721064085 source:/home/mrcat2/Programming/C++/Project/Project/Funksiya.cpp
+	"Funksiya.hpp"
+	<iostream>
+
