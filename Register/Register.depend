@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1721139331 source:/home/mrcat2/Programming/C++/Project/Register/User.cpp
+	<bits/stdc++.h>
+	"User.hpp"
+
+1721138991 /home/mrcat2/Programming/C++/Project/Register/User.hpp
+	<bits/stdc++.h>
+
+1721140369 source:/home/mrcat2/Programming/C++/Project/Register/main.cpp
+	<bits/stdc++.h>
+	"User.hpp"
+
